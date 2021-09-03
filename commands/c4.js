@@ -36,7 +36,7 @@ module.exports = {
 	async execute(interaction) {
 		// await interaction.reply(`:yellow_circle: :red_circle: -> [Play](https://c4arena.com/${makeid()})`);
 		const message = await interaction.reply({ embeds: [exampleEmbed], fetchReply: true });
-		console.log(message);
+		// console.log(message);
 		message.react('💯');
 	},
 };

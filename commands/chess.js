@@ -1,7 +1,10 @@
 // import axios from "axios";
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { MessageEmbed } = require('discord.js');
-const { lichessToken } = require('../config.json');
+const dotenv = require('dotenv');
+dotenv.config();
+const lichessToken = process.env.LICHESS_TOKEN;
+// const { lichessToken } = require('../config.json');
 const endPoint = 'https://lichess.org/';
 
 const headers = {

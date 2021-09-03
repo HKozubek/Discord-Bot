@@ -1,7 +1,10 @@
 // import axios from "axios";
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
-const { token } = require('./config.json');
+const dotenv = require('dotenv');
+dotenv.config();
+const token = process.env.TOKEN;
+// const { token } = require('./config.json');
 
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS], partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });

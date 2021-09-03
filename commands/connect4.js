@@ -126,7 +126,7 @@ module.exports = {
 			if(reaction.partial) await reaction.fetch();
 			if(!reaction.message.gild) return;
 			if(reaction.message.channelId == channel) {
-				console.log(reaction.emoji.name);
+				// console.log(reaction.emoji.name);
 				/*
 				switch(reaction.emoji.name) {
 				case ':one:':
