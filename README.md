@@ -30,10 +30,10 @@ At this moment Browser Discord Bot has 3 commends, each coresponding to differen
 * `/bships` sends an invitencional link to a battleships game
 * `/chess` sends an invitencional link to a chess game, it is possible to choose beetween **antichess**, **standard** and **atomic** variant
 
-It is worth noticing, that all the commands are so called slash commands with description. That means typing **"/"** opens menu of all the possible commands, and has autocomplition option. 
+It is worth noticing, that all the commands are so called slash commands with description. That means typing **"/"** opens menu of all the possible commands, and helps by  autocompliting commands and variants. 
 
 
-<img src="" width="400"/>
+<img src="Images/Commands.png" height="230"/>
 
 
 ### Addicional informations
