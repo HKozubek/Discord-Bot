@@ -3,5 +3,5 @@ node_modules
 config.json
 node_modules
 icon.png
-connect4.js
+commands/connect4.js
 DiscordBot_Invite_Link.txt
