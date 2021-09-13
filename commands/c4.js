@@ -32,7 +32,7 @@ const exampleEmbed = new MessageEmbed()
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('c4')
-		.setDescription('Sends link to connect4 game'),
+		.setDescription('Sends link to Connect 4 game'),
 	async execute(interaction) {
 		// await interaction.reply(`:yellow_circle: :red_circle: -> [Play](https://c4arena.com/${makeid()})`);
 		const message = await interaction.reply({ embeds: [exampleEmbed], fetchReply: true });
